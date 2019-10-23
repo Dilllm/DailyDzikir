@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/homeimage">
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="253dp"></Space>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/morning_dzikir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/morningdzikirimage" />
+
+    <TextView
+        android:id="@+id/text1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Morning Dzikir"
+        android:textAlignment="center"
+
+        android:fontFamily="sans-serif-black" />
+    <ImageButton
+        android:id="@+id/evening_dzikir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/eveningdzikirimage" />
+
+    <TextView
+        android:id="@+id/text2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evening Dzikir"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageButton
+        android:id="@+id/pray_dzikir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/afterprayimage" />
+
+    <TextView
+        android:id="@+id/text3View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After Pray Dzikir"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"/>
+    <ImageButton
+        android:id="@+id/doa_dzikir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/doadailyimage" />
+
+    <TextView
+        android:id="@+id/text4View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Doa"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"/>
+    <ImageButton
+        android:id="@+id/tasbih_dzikir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/tasbihimage" />
+
+    <TextView
+        android:id="@+id/text5View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tasbih"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="101dp"
+        android:layout_gravity="bottom"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/info_dzikir"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/about" />
+    </LinearLayout>
+
+
+</LinearLayout>
